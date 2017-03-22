@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB69ACAA1E15142B00B0FA18 /* localFileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB69ACA91E15142B00B0FA18 /* localFileView.xib */; };
+		EBD52DB71E125A7D0008A632 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DB61E125A7D0008A632 /* AppDelegate.swift */; };
+		EBD52DB91E125A7D0008A632 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DB81E125A7D0008A632 /* ViewController.swift */; };
+		EBD52DBC1E125A7D0008A632 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD52DBA1E125A7D0008A632 /* Main.storyboard */; };
+		EBD52DBE1E125A7D0008A632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD52DBD1E125A7D0008A632 /* Assets.xcassets */; };
+		EBD52DC11E125A7D0008A632 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD52DBF1E125A7D0008A632 /* LaunchScreen.storyboard */; };
+		EBD52DCC1E125A7D0008A632 /* FileShareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DCB1E125A7D0008A632 /* FileShareTests.swift */; };
+		EBD52DD71E125A7D0008A632 /* FileShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DD61E125A7D0008A632 /* FileShareUITests.swift */; };
+		EBD52DE61E125AC30008A632 /* TableFileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DE41E125AC30008A632 /* TableFileCell.swift */; };
+		EBD52DE71E125AC30008A632 /* TableFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBD52DE51E125AC30008A632 /* TableFileCell.xib */; };
+		EBD52DEE1E125B8A0008A632 /* JsonHandles.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DEB1E125B8A0008A632 /* JsonHandles.swift */; };
+		EBD52DEF1E125B8A0008A632 /* SocketClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DEC1E125B8A0008A632 /* SocketClass.swift */; };
+		EBD52DF31E125C7C0008A632 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DF21E125C7C0008A632 /* GCDAsyncSocket.m */; };
+		EBD52DF51E12C4CA0008A632 /* FileSocketClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DF41E12C4CA0008A632 /* FileSocketClass.swift */; };
+		EBD52DF81E12CB5A0008A632 /* localFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD52DF61E12CB5A0008A632 /* localFileView.swift */; };
+		EBF76EFC1E1695F10080364C /* UpFileSocketClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF76EFB1E1695F10080364C /* UpFileSocketClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD52DC81E125A7D0008A632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD52DAB1E125A7D0008A632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD52DB21E125A7D0008A632;
+			remoteInfo = FileShare;
+		};
+		EBD52DD31E125A7D0008A632 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD52DAB1E125A7D0008A632 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD52DB21E125A7D0008A632;
+			remoteInfo = FileShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB69AC8B1E150C7B00B0FA18 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB69ACA91E15142B00B0FA18 /* localFileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = localFileView.xib; sourceTree = "<group>"; };
+		EBD52DB31E125A7D0008A632 /* FileShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD52DB61E125A7D0008A632 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBD52DB81E125A7D0008A632 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD52DBB1E125A7D0008A632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD52DBD1E125A7D0008A632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD52DC01E125A7D0008A632 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD52DC21E125A7D0008A632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD52DC71E125A7D0008A632 /* FileShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD52DCB1E125A7D0008A632 /* FileShareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShareTests.swift; sourceTree = "<group>"; };
+		EBD52DCD1E125A7D0008A632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD52DD21E125A7D0008A632 /* FileShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FileShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD52DD61E125A7D0008A632 /* FileShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileShareUITests.swift; sourceTree = "<group>"; };
+		EBD52DD81E125A7D0008A632 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD52DE41E125AC30008A632 /* TableFileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableFileCell.swift; sourceTree = "<group>"; };
+		EBD52DE51E125AC30008A632 /* TableFileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableFileCell.xib; sourceTree = "<group>"; };
+		EBD52DEB1E125B8A0008A632 /* JsonHandles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonHandles.swift; sourceTree = "<group>"; };
+		EBD52DEC1E125B8A0008A632 /* SocketClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketClass.swift; sourceTree = "<group>"; };
+		EBD52DF01E125C7C0008A632 /* FileShare-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileShare-Bridging-Header.h"; sourceTree = "<group>"; };
+		EBD52DF11E125C7C0008A632 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		EBD52DF21E125C7C0008A632 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		EBD52DF41E12C4CA0008A632 /* FileSocketClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileSocketClass.swift; sourceTree = "<group>"; };
+		EBD52DF61E12CB5A0008A632 /* localFileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = localFileView.swift; sourceTree = "<group>"; };
+		EBF76EFB1E1695F10080364C /* UpFileSocketClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpFileSocketClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD52DB01E125A7D0008A632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD52DC41E125A7D0008A632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD52DCF1E125A7D0008A632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB5AE1691E1E2B270082C57B /* SocketClass */ = {
+			isa = PBXGroup;
+			children = (
+				EBD52DF11E125C7C0008A632 /* GCDAsyncSocket.h */,
+				EBD52DF21E125C7C0008A632 /* GCDAsyncSocket.m */,
+				EBD52DF41E12C4CA0008A632 /* FileSocketClass.swift */,
+				EBF76EFB1E1695F10080364C /* UpFileSocketClass.swift */,
+				EBD52DEC1E125B8A0008A632 /* SocketClass.swift */,
+			);
+			name = SocketClass;
+			sourceTree = "<group>";
+		};
+		EB5AE16A1E1E2CB90082C57B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EBD52DE51E125AC30008A632 /* TableFileCell.xib */,
+				EBD52DE41E125AC30008A632 /* TableFileCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		EB5AE16B1E1E2CE90082C57B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EBD52DB81E125A7D0008A632 /* ViewController.swift */,
+				EBD52DBA1E125A7D0008A632 /* Main.storyboard */,
+				EBD52DF61E12CB5A0008A632 /* localFileView.swift */,
+				EBD52DBF1E125A7D0008A632 /* LaunchScreen.storyboard */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		EBD52DAA1E125A7D0008A632 = {
+			isa = PBXGroup;
+			children = (
+				EBD52DB51E125A7D0008A632 /* FileShare */,
+				EBD52DCA1E125A7D0008A632 /* FileShareTests */,
+				EBD52DD51E125A7D0008A632 /* FileShareUITests */,
+				EBD52DB41E125A7D0008A632 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD52DB41E125A7D0008A632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD52DB31E125A7D0008A632 /* FileShare.app */,
+				EBD52DC71E125A7D0008A632 /* FileShareTests.xctest */,
+				EBD52DD21E125A7D0008A632 /* FileShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD52DB51E125A7D0008A632 /* FileShare */ = {
+			isa = PBXGroup;
+			children = (
+				EB5AE16B1E1E2CE90082C57B /* ViewController */,
+				EB5AE16A1E1E2CB90082C57B /* Cell */,
+				EB5AE1691E1E2B270082C57B /* SocketClass */,
+				EBD52DEB1E125B8A0008A632 /* JsonHandles.swift */,
+				EBD52DB61E125A7D0008A632 /* AppDelegate.swift */,
+				EBD52DBD1E125A7D0008A632 /* Assets.xcassets */,
+				EBD52DC21E125A7D0008A632 /* Info.plist */,
+				EB69ACA91E15142B00B0FA18 /* localFileView.xib */,
+				EBD52DF01E125C7C0008A632 /* FileShare-Bridging-Header.h */,
+			);
+			path = FileShare;
+			sourceTree = "<group>";
+		};
+		EBD52DCA1E125A7D0008A632 /* FileShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD52DCB1E125A7D0008A632 /* FileShareTests.swift */,
+				EBD52DCD1E125A7D0008A632 /* Info.plist */,
+			);
+			path = FileShareTests;
+			sourceTree = "<group>";
+		};
+		EBD52DD51E125A7D0008A632 /* FileShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD52DD61E125A7D0008A632 /* FileShareUITests.swift */,
+				EBD52DD81E125A7D0008A632 /* Info.plist */,
+			);
+			path = FileShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD52DB21E125A7D0008A632 /* FileShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD52DDB1E125A7D0008A632 /* Build configuration list for PBXNativeTarget "FileShare" */;
+			buildPhases = (
+				EBD52DAF1E125A7D0008A632 /* Sources */,
+				EBD52DB01E125A7D0008A632 /* Frameworks */,
+				EBD52DB11E125A7D0008A632 /* Resources */,
+				EB69AC8B1E150C7B00B0FA18 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileShare;
+			productName = FileShare;
+			productReference = EBD52DB31E125A7D0008A632 /* FileShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD52DC61E125A7D0008A632 /* FileShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD52DDE1E125A7D0008A632 /* Build configuration list for PBXNativeTarget "FileShareTests" */;
+			buildPhases = (
+				EBD52DC31E125A7D0008A632 /* Sources */,
+				EBD52DC41E125A7D0008A632 /* Frameworks */,
+				EBD52DC51E125A7D0008A632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD52DC91E125A7D0008A632 /* PBXTargetDependency */,
+			);
+			name = FileShareTests;
+			productName = FileShareTests;
+			productReference = EBD52DC71E125A7D0008A632 /* FileShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD52DD11E125A7D0008A632 /* FileShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD52DE11E125A7D0008A632 /* Build configuration list for PBXNativeTarget "FileShareUITests" */;
+			buildPhases = (
+				EBD52DCE1E125A7D0008A632 /* Sources */,
+				EBD52DCF1E125A7D0008A632 /* Frameworks */,
+				EBD52DD01E125A7D0008A632 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD52DD41E125A7D0008A632 /* PBXTargetDependency */,
+			);
+			name = FileShareUITests;
+			productName = FileShareUITests;
+			productReference = EBD52DD21E125A7D0008A632 /* FileShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD52DAB1E125A7D0008A632 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "吴子鸿";
+				TargetAttributes = {
+					EBD52DB21E125A7D0008A632 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					EBD52DC61E125A7D0008A632 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VG4UE7BW55;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBD52DB21E125A7D0008A632;
+					};
+					EBD52DD11E125A7D0008A632 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VG4UE7BW55;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBD52DB21E125A7D0008A632;
+					};
+				};
+			};
+			buildConfigurationList = EBD52DAE1E125A7D0008A632 /* Build configuration list for PBXProject "FileShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD52DAA1E125A7D0008A632;
+			productRefGroup = EBD52DB41E125A7D0008A632 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD52DB21E125A7D0008A632 /* FileShare */,
+				EBD52DC61E125A7D0008A632 /* FileShareTests */,
+				EBD52DD11E125A7D0008A632 /* FileShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD52DB11E125A7D0008A632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD52DC11E125A7D0008A632 /* LaunchScreen.storyboard in Resources */,
+				EBD52DBE1E125A7D0008A632 /* Assets.xcassets in Resources */,
+				EBD52DE71E125AC30008A632 /* TableFileCell.xib in Resources */,
+				EBD52DBC1E125A7D0008A632 /* Main.storyboard in Resources */,
+				EB69ACAA1E15142B00B0FA18 /* localFileView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD52DC51E125A7D0008A632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD52DD01E125A7D0008A632 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD52DAF1E125A7D0008A632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF76EFC1E1695F10080364C /* UpFileSocketClass.swift in Sources */,
+				EBD52DF31E125C7C0008A632 /* GCDAsyncSocket.m in Sources */,
+				EBD52DEF1E125B8A0008A632 /* SocketClass.swift in Sources */,
+				EBD52DEE1E125B8A0008A632 /* JsonHandles.swift in Sources */,
+				EBD52DB91E125A7D0008A632 /* ViewController.swift in Sources */,
+				EBD52DF81E12CB5A0008A632 /* localFileView.swift in Sources */,
+				EBD52DB71E125A7D0008A632 /* AppDelegate.swift in Sources */,
+				EBD52DF51E12C4CA0008A632 /* FileSocketClass.swift in Sources */,
+				EBD52DE61E125AC30008A632 /* TableFileCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD52DC31E125A7D0008A632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD52DCC1E125A7D0008A632 /* FileShareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD52DCE1E125A7D0008A632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD52DD71E125A7D0008A632 /* FileShareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD52DC91E125A7D0008A632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD52DB21E125A7D0008A632 /* FileShare */;
+			targetProxy = EBD52DC81E125A7D0008A632 /* PBXContainerItemProxy */;
+		};
+		EBD52DD41E125A7D0008A632 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD52DB21E125A7D0008A632 /* FileShare */;
+			targetProxy = EBD52DD31E125A7D0008A632 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD52DBA1E125A7D0008A632 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD52DBB1E125A7D0008A632 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD52DBF1E125A7D0008A632 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD52DC01E125A7D0008A632 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD52DD91E125A7D0008A632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBD52DDA1E125A7D0008A632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD52DDC1E125A7D0008A632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FileShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzh.FileShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FileShare/FileShare-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EBD52DDD1E125A7D0008A632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FileShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzh.FileShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FileShare/FileShare-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EBD52DDF1E125A7D0008A632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VG4UE7BW55;
+				INFOPLIST_FILE = FileShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzh.FileShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileShare.app/FileShare";
+			};
+			name = Debug;
+		};
+		EBD52DE01E125A7D0008A632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VG4UE7BW55;
+				INFOPLIST_FILE = FileShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzh.FileShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FileShare.app/FileShare";
+			};
+			name = Release;
+		};
+		EBD52DE21E125A7D0008A632 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VG4UE7BW55;
+				INFOPLIST_FILE = FileShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzh.FileShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FileShare;
+			};
+			name = Debug;
+		};
+		EBD52DE31E125A7D0008A632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VG4UE7BW55;
+				INFOPLIST_FILE = FileShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzh.FileShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FileShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD52DAE1E125A7D0008A632 /* Build configuration list for PBXProject "FileShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD52DD91E125A7D0008A632 /* Debug */,
+				EBD52DDA1E125A7D0008A632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD52DDB1E125A7D0008A632 /* Build configuration list for PBXNativeTarget "FileShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD52DDC1E125A7D0008A632 /* Debug */,
+				EBD52DDD1E125A7D0008A632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD52DDE1E125A7D0008A632 /* Build configuration list for PBXNativeTarget "FileShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD52DDF1E125A7D0008A632 /* Debug */,
+				EBD52DE01E125A7D0008A632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD52DE11E125A7D0008A632 /* Build configuration list for PBXNativeTarget "FileShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD52DE21E125A7D0008A632 /* Debug */,
+				EBD52DE31E125A7D0008A632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD52DAB1E125A7D0008A632 /* Project object */;
+}

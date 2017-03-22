@@ -1,0 +1,10 @@
+framework module EMFileStream {
+  umbrella header "EMFileStream.h"
+
+  export *
+  module * { export * }
+}
+
+module EMFileStream.Swift {
+    header "EMFileStream-Swift.h"
+}
